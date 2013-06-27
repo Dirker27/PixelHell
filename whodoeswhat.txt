@@ -1,0 +1,6 @@
+DELEGATIONS!!!!
+
+MODEL - Brandon, Jatin
+Store - Vimal, Rohan
+Options - Vimal, Rohan
+GameActivity/GameView - Dirk

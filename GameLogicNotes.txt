@@ -5,6 +5,7 @@
 - spawn enemy
 Vector<Enemy> spawnEnemy() { ... }
 
+
 === Level Object ===
 * Player
 * Enemies[]
@@ -25,9 +26,11 @@ Gets ScreenTouch from GameView
 float[2] getTilt() { ... }; (Tilt normalized to relative vectors)
 bool getTouch() { ... };
 
+
 === Global Settings ===
 (Struct/Map)
 * TiltSensitivity (float)
 * Wallet ( $$ int)
 * Difficulty (Enum?)
 * WeaponCache (Vector<Weapons>)
+

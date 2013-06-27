@@ -10,11 +10,13 @@
 
 
 === SHIP ===
-* Health
-* Sheild???
-* Current Weapon(s)
-* Fire Rate
+* Health (double)
+* Sheild??? (double)
+* Current Weapon(s) (Weapon/List<Weapon>)
+* Fire Rate (float)
 * Current Pickup?
+* Hit Sound
+* Death Sound
 
 - fire
 - recieve damage
@@ -23,10 +25,15 @@
 
 
 === PLAYER ===
-* Weapon Cache
+* Weapon Cache  (Object)
+* Input Manager (Object)
 
 - receives input
 
 
 === ENEMY ===
 * Nav-Path
+
+=== WEAPONS ===
+* Damage
+* Fire Sound
