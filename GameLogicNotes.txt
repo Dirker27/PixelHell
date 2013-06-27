@@ -1,0 +1,33 @@
+=== AI Admin/Factory ===
+(Counts Enemies, Determines Density, etc)
+
+- update
+- spawn enemy
+Vector<Enemy> spawnEnemy() { ... }
+
+=== Level Object ===
+* Player
+* Enemies[]
+* EnemyBullets[]
+* PlayerBullets[]
+* Pickups[]
+
+- update(time_elapsed)
+
+
+
+
+=== Input Manager ===
+(Query from player: "what's my input?")
+Gets Tilt from GameActivity
+Gets ScreenTouch from GameView
+
+float[2] getTilt() { ... }; (Tilt normalized to relative vectors)
+bool getTouch() { ... };
+
+=== Global Settings ===
+(Struct/Map)
+* TiltSensitivity (float)
+* Wallet ( $$ int)
+* Difficulty (Enum?)
+* WeaponCache (Vector<Weapons>)
