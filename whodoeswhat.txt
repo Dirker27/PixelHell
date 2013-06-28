@@ -1,0 +1,19 @@
+DELEGATIONS!!!!
+
+===GAME===
+MODEL - Brandon, Jatin
+Store - Vimal, Rohan
+Options - Vimal, Rohan
+Main Menu - Vimal, Rohan
+GameActiviy - Dirk
+GameView - Dirk
+
+===SDKS===
+(In order of priority)
+
+IAP - Vimal, Rohan
+InsightsSDK(Custom Events) - Dirk
+InsightsSDK(A/B Testing) - Dirk
+GameCircle - Vimal, Rohan
+
+Coins - Vimal, Rohan

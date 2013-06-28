@@ -1,0 +1,39 @@
+=== GAME OBJECT ===
+* Size
+* Image
+* Position (X, Y)
+* Velocity (d_x, d_y)
+
+- update
+- initialize
+- draw (in view)
+
+
+=== SHIP ===
+* Health (double)
+* Sheild??? (double)
+* Current Weapon(s) (Weapon/List<Weapon>)
+* Fire Rate (float)
+* Current Pickup?
+* Hit Sound
+* Death Sound
+
+- fire
+- recieve damage
+- collision detection
+- bounds correction?
+
+
+=== PLAYER ===
+* Weapon Cache  (Object)
+* Input Manager (Object)
+
+- receives input
+
+
+=== ENEMY ===
+* Nav-Path
+
+=== WEAPONS ===
+* Damage
+* Fire Sound
